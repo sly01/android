@@ -45,9 +45,9 @@ public class MainActivity extends Activity implements OnClickListener {
 
 			if (kullaniciAdi.equals("ahmet") && sifre.equals("erkoc")) {
 				
-				tvSonuc.setText("Basarili");
+				tvSonuc.setText(getResources().getString(R.string.sonuc_basarili_giris));
 			} else {
-				tvSonuc.setText("Kullanici adi veya sifre yanlis");
+				tvSonuc.setText(getResources().getString(R.string.sonuc_basarisiz_giris));
 			}
 		}
 

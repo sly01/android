@@ -9,5 +9,7 @@
     <string name="text_button_giris">Giris</string>
     <string name="text_sonuc">Sonuc</string>
     
+    <string name="sonuc_basarili_giris">Basarili Giris</string>
+    <string name="sonuc_basarisiz_giris">Kullanici adi veya sifre hatali</string>
 
 </resources>
